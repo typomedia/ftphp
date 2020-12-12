@@ -1,0 +1,16 @@
+{
+    "chmod": "0755",
+    "directories": [
+        "src"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": ["Tests", "Test"],
+            "in": "vendor"
+        }
+    ],
+    "main": "bin/ftphp",
+    "output": "dist/ftphp.phar",
+    "stub": true
+}

@@ -1,0 +1,24 @@
+{
+    "name": "typomedia/ftphp",
+    "description": "FTP Console Client",
+    "license": "MIT",
+    "require": {
+        "symfony/console": "^3.4",
+        "touki/ftp": "^1.2",
+        "ext-ftp": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ftphp\\": "src/Ftphp"
+        }
+    },
+    "scripts": {
+        "fix": [
+            "phpcbf --standard=PSR1,PSR2,PSR12 src"
+        ],
+        "check": [
+            "phpcs --standard=PSR1,PSR2,PSR12 --error-severity=1 --warning-severity=8 src",
+            "phpmd src text codesize, controversial, design, naming, unusedcode"
+        ]
+    }
+}
