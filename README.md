@@ -1,6 +1,6 @@
 # Ftphp
 
-This tool uploads and downloads single files from a ftp server.
+Simple FTP client for uploading/downloading single files to/from a server.
 
 ## Download
 
