@@ -1,4 +1,4 @@
-# Ftphp
+# ftphp
 
 Simple FTP client for uploading/downloading single files to/from a server.
 
