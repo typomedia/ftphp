@@ -4,7 +4,7 @@ This tool uploads and downloads single files from a ftp server.
 
 ## Download
 
-[ftphp.phar](../raw/master/dist/ftphp.phar)
+[ftphp.phar](https://github.com/typomedia/ftphp/raw/master/dist/ftphp.phar)
 
 ## Usage
     php ftphp.phar get [options] [--] <remotefile> <localfile>
